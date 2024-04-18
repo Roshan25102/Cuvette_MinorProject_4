@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone_Paper_Scissor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="score_con">
+        <div class="logo">
+            <p>ROCK</p>
+            <p>PAPER</p>
+            <p>SCISSORS</p>
+        </div>
+        <div class="scorepart">
+            <div class="score">
+                <p>Computer Score</p>
+                <span id="cscore">0</span>
+            </div>
+            <div class="score">
+                <p>Your Total Score</p>
+                <span id="yscore">0<span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="game-con">
+        <div class="info">
+            <p class="user">You Picked</p>
+            <p class="machine">PC Picked</p>
+        </div>
+        
+        <div class="option">
+            <img src="./image/Triangle.png" alt="" id="triangle">
+            <div class="sci-con con">
+                <div class="item">
+                    <img src="./image/Scissor.png" alt="">
+                </div>
+            </div>
+            <div class="rock-con con">
+                <div class="item">
+                    <img src="./image/Stone.png" alt="">
+                </div>
+            </div>
+            <div class="paper-con con">
+                <div class="item">
+                    <img src="./image/Paper.png" alt="">
+                </div>
+            </div>   
+            <div class="sci-con computer">
+                <div class="item">
+                    <img src="./image/Scissor.png" alt="">
+                </div>
+            </div>
+            <div class="rock-con computer">
+                <div class="item">
+                    <img src="./image/Stone.png" alt="">
+                </div>
+            </div>
+            <div class="paper-con computer">
+                <div class="item">
+                    <img src="./image/Paper.png" alt="">
+                </div>
+            </div>   
+        </div>
+        
+        <div class="btn-div">
+            <button class="btn-rule">RULE</button>
+            <button class="nextBtn">Next</button>
+        </div>
+
+        <div class="rule-model">
+            <div class="rule-img">
+                <div>
+                    <button class="close"><img src="./image/cross.webp" id="close_img" ></button>
+                </div>
+                <img src="./image/rule.png" alt="">
+            </div>
+        </div>
+
+        <div class="win-model">
+            <h1 class="winner">YOU WIN</h1>
+            <h3 class="winner">AGAINST PC</h3>
+            <button class="play">Play Again</button>
+        </div>
+
+    </div>
+
+    <div class="hurrayContainer">
+        <div class="img">
+            <img src="./image/Star.png" alt="" class="hurrayImg" id="hurrayStar">
+            <img src="./image/Vector.png" alt="" class="hurrayImg" id="hurrayTroffy">
+        </div>
+        
+        <div class="statement">
+            <h1 class="hurraySta" id="hurrayHead">HURRAY!!</h1>
+            <h3 class="hurraySta" id="hurrayText">YOU WON THE GAME</h3>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
